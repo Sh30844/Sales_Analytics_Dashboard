@@ -1,12 +1,12 @@
-CREATE TABLE public."Sales_Data" AS
-SELECT * FROM public."Sales_Canada"
+CREATE TABLE Sales_Data AS
+SELECT * FROM Sales_Canada
 UNION ALL
-SELECT * FROM public."Sales_China"
+SELECT * FROM Sales_China
 UNION ALL
-SELECT * FROM public."Sales_India"
+SELECT * FROM Sales_India
 UNION ALL
-SELECT * FROM public."Sales_Nigeria"
+SELECT * FROM Sales_Nigeria
 UNION ALL
-SELECT * FROM public."Sales_UK"
+SELECT * FROM Sales_UK
 UNION ALL
-SELECT * FROM public."Sales_US";
+SELECT * FROM Sales_US;
